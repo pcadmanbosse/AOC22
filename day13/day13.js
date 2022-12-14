@@ -85,5 +85,4 @@ console.log(orderedPairs.reduce((t, s) => t+s, 0))
 const allPackets = [...pairs.flat().map((packet) => makeStack(preparePacket(packet))[0]), [[2]], [[6]]].sort((a, b) => compare(a, b));
 const index2 = allPackets.findIndex((p) => p.length == 1 && p[0].length == 1 && p[0] == 2)
 const index6 = allPackets.findIndex((p) => p.length == 1 && p[0].length == 1 && p[0] == 6)
-console.log(index2)
 console.log((index2 +1)*(index6+1))

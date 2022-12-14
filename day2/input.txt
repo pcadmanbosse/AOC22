@@ -2468,7 +2468,7 @@ B Z
 A Y
 C X
 A Z
-B Y
+B Y 
 B Z
 C X
 C Z
