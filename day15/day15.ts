@@ -1,5 +1,3 @@
-import { cpSync, unwatchFile } from "fs"
-
 const fs = require("fs")
 
 const inputs = fs.readFileSync("input.txt", "utf-8").split("\n").map((l: string) => {

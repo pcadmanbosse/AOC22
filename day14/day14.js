@@ -79,4 +79,3 @@ while(fall(map, max, true)){
 }
 console.log(count)
 prettyprintmaptofile(map, "text.txt")
-// 498,13 -> 498,17 -> 491,17 -> 491,21 -> 507,21 -> 507,17 -> 502,17 -> 502,13
